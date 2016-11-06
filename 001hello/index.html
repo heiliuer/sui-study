@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hello</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="../vendor/sm.css">
+    <link rel="stylesheet" href="../vendor/sm-extend.css">
+</head>
+<body>
+<!--page集合的容器-->
+<div class="page-group">
+    <div class="page page-current">
+        <!--标题栏-->
+        <header class="bar bar-nav">
+            <a class="icon icon-me pull-left open-panel"></a>
+            <h1 class="title">标题</h1>
+        </header>
+
+        <!-- 工具栏 -->
+        <nav class="bar bar-tab">
+            <a class="tab-item external active" href="#">
+                <span class="icon icon-home"></span>
+                <span class="tab-label">首页</span>
+            </a>
+            <a class="tab-item external" href="#">
+                <span class="icon icon-star"></span>
+                <span class="tab-label">收藏</span>
+            </a>
+            <a class="tab-item external" href="#">
+                <span class="icon icon-settings"></span>
+                <span class="tab-label">设置</span>
+            </a>
+        </nav>
+
+        <!-- 这里是页面内容区 -->
+        <div class="content content-padded">
+            <a data-action-left-panel href="javascript:void(0)">这里是content</a>
+            <h1>标题一</h1>
+            <h2>标题二</h2>
+            <h3>标题三</h3>
+            <h4>标题四</h4>
+            <h5>标题五</h5>
+            <h6>标题六</h6>
+            <p>这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落</p>
+
+        </div>
+
+    </div>
+
+    <div class="page">
+    </div>
+
+    <!-- popup, panel 等放在这里 -->
+    <div class="panel-overlay"></div>
+    <!-- Left Panel with Reveal effect -->
+    <div class="panel panel-left panel-reveal">
+        <div class="content-block">
+            <p>这是一个侧栏</p>
+            <p></p>
+            <!-- Click on link with "close-panel" class will close panel -->
+            <p><a href="#" class="close-panel">关闭</a></p>
+        </div>
+    </div>
+</div>
+<script src='../vendor/zepto.js'></script>
+<script src="config.js"></script>
+<script src='../vendor/sm.js'></script>
+<script src='../vendor/sm-extend.js'></script>
+<script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hello</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="../vendor/sm.css">
+    <link rel="stylesheet" href="../vendor/sm-extend.css">
+</head>
+<body>
+<!--page集合的容器-->
+<div class="page-group">
+    <div class="page page-current">
+
+        <!--只有标题-->
+        <header class="bar bar-nav">
+            <h1 class="title">标题</h1>
+        </header>
+
+        <!--按钮标题栏-->
+        <header class="bar bar-nav">
+            <button class="pull-left button">返回</button>
+            <button class="pull-right button">刷新</button>
+            <h1 class="title">标题</h1>
+        </header>
+
+        <!--带图标-->
+        <header class="bar bar-nav">
+            <a class="icon icon-left pull-left"></a>
+            <a class="icon icon-refresh pull-right"></a>
+            <h1 class="title">标题</h1>
+        </header>
+
+        <header class="bar bar-nav">
+            <button class="button button-link button-nav pull-left">
+                <span class="icon icon-left"></span>
+                返回
+            </button>
+            <button class="button button-link button-nav pull-right">
+                下一步
+                <span class="icon icon-right"></span>
+            </button>
+            <h1 class="title">标题</h1>
+        </header>
+
+        <header class="bar bar-nav">
+            <button class="button pull-left">
+                Left
+            </button>
+            <button class="button pull-right">
+                Right
+            </button>
+            <div class="buttons-row">
+                <a href="#tab1" class="tab-link active button">Tab 1</a>
+                <a href="#tab2" class="tab-link button">Tab 2</a>
+                <a href="#tab3" class="tab-link button">Tab 3</a>
+            </div>
+        </header>
+    </div>
+
+</div>
+<script src='../vendor/zepto.js'></script>
+<script src="config.js"></script>
+<script src='../vendor/sm.js'></script>
+<script src='../vendor/sm-extend.js'></script>
+<script src="index.js"></script>
+</body>
+</html>
